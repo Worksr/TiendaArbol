@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605332008432",
+    "project_id": "tiendaarboles",
+    "storage_bucket": "tiendaarboles.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605332008432:android:c1e8b3705c25b71a498135",
+        "android_client_info": {
+          "package_name": "com.example.activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCpcH9wqOvNLfzfc7p5Q72o3R2Oz9zQes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
