@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.androidx.room.common.jvm)
     implementation(libs.google.firebase.firestore.ktx)
+    implementation(libs.androidx.room.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -49,7 +50,7 @@ dependencies {
     //Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
     //implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation("com.google.firebase:firebase-firestore:26.0.1")
 }
 
 //apply(plugin = "com.google.gms.google-services")

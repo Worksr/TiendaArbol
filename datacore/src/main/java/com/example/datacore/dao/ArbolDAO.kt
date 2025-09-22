@@ -5,11 +5,12 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
+import com.example.datacore.model.Arbol
 import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ArbolDAO {
-    @Query("SELECT * FROM arbol ORDER BY date DESC")
+    @Query("SELECT * FROM arbol")
     fun getAllArbol(): Flow<List<Arbol>>
 
     //POST

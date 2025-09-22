@@ -27,4 +27,16 @@ data class Arbol (
         "precio" to precio,
         "notas" to notas
     )
+
+    companion object {
+        fun fromMap(map: Map<String, Any?>): Arbol = Arbol(
+            id = map["id"] as String,
+            fecha = map["fecha"] as String,
+            hora = map["hora"] as String,
+            producto = map["producto"] as String,
+            precio = map["precio"] as String,
+            notas = map["notas"] as String?
+            )
+
+    }
 }

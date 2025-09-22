@@ -2,6 +2,7 @@ package com.example.datacore.firebase
 
 import com.example.datacore.model.Arbol
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.coroutines.tasks.await
 
 
 class FirebaseArbolService (

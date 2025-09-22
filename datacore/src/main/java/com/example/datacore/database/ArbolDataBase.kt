@@ -1,6 +1,9 @@
 package com.example.datacore.database
 
 import androidx.room.Database
+import androidx.room.RoomDatabase
+import com.example.datacore.dao.ArbolDAO
+import com.example.datacore.model.Arbol
 
 @Database(
     entities = [Arbol::class],
