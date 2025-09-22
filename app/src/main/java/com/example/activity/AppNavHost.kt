@@ -5,6 +5,16 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.activity.Screens.Pantalla10Screen
+import com.example.activity.Screens.Pantalla1Screen
+import com.example.activity.Screens.Pantalla2Screen
+import com.example.activity.Screens.Pantalla3Screen
+import com.example.activity.Screens.Pantalla4Screen
+import com.example.activity.Screens.Pantalla5Screen
+import com.example.activity.Screens.Pantalla6Screen
+import com.example.activity.Screens.Pantalla7Screen
+import com.example.activity.Screens.Pantalla8Screen
+import com.example.activity.Screens.Pantalla9Screen
 
 @Composable
 fun AppNavHost(modifier: Modifier = Modifier) {
